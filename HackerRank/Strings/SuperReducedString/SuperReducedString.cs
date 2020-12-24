@@ -12,9 +12,13 @@ namespace SuperReducedString
             Regex pattern = new Regex(@"([a-z])\1");
             MatchCollection matches = pattern.Matches(s);
 
-            foreach (Match match in matches)
+            while (s != string.Empty && matches.Count != 0)
             {
-                s = s.Replace(match.Groups[0].Value, string.Empty);
+                foreach (Match match in matches)
+                {
+                    s = s.Replace(match.Groups[0].Value, string.Empty);
+                }
+                matches = pattern.Matches(s);
             }
 
             if (s == string.Empty)
