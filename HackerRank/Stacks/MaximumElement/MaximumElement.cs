@@ -35,8 +35,11 @@ namespace MaximumElement
                 }
                 else if (type == 2)
                 {
-                    st.Pop();
-                    trackSTack.Pop();
+                    if (st.Count != 0)
+                    {
+                        st.Pop();
+                        trackSTack.Pop();
+                    }
                 }
                 else
                 {
