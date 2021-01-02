@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivisibleSumPairs", "DivisibleSumPairs\DivisibleSumPairs.csproj", "{99B0E0FD-70D6-4CAB-B4A8-87ED372C9735}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigratoryBirds", "MigratoryBirds\MigratoryBirds.csproj", "{F44FA25A-B073-46BA-8A7F-9C526A832A64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillDivision", "BillDivision\BillDivision.csproj", "{C55DCCF4-15CA-45B1-9E6C-0F524001D3AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{99B0E0FD-70D6-4CAB-B4A8-87ED372C9735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99B0E0FD-70D6-4CAB-B4A8-87ED372C9735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99B0E0FD-70D6-4CAB-B4A8-87ED372C9735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44FA25A-B073-46BA-8A7F-9C526A832A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44FA25A-B073-46BA-8A7F-9C526A832A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44FA25A-B073-46BA-8A7F-9C526A832A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44FA25A-B073-46BA-8A7F-9C526A832A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55DCCF4-15CA-45B1-9E6C-0F524001D3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55DCCF4-15CA-45B1-9E6C-0F524001D3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55DCCF4-15CA-45B1-9E6C-0F524001D3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55DCCF4-15CA-45B1-9E6C-0F524001D3AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
