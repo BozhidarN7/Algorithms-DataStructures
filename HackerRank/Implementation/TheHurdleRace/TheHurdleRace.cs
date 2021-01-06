@@ -12,7 +12,7 @@ namespace TheHurdleRace
             int k = tokens[1];
 
             int[] heights = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            Console.WriteLine(heights.Max() - k);
+            Console.WriteLine(heights.Max() - k > 0 ? heights.Max() - k : 0);
         }
     }
 }
