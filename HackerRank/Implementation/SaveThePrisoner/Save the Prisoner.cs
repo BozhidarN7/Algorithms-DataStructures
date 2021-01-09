@@ -15,7 +15,7 @@ namespace SaveThePrisoner
                 int m = tokens[1];
                 int s = tokens[2];
 
-                int chairNumber = (s - 1 + m - 1 )%n;
+                int chairNumber = (s - 1 + m - 1) % n;
                 Console.WriteLine(chairNumber + 1);
 
                 t--;
