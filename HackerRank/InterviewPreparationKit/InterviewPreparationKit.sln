@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31606.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTableRansomNote", "HashTableRansomNote\HashTableRansomNote.csproj", "{F9093B24-DCB0-4AFD-92D6-D5DB86E56CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoStrings", "TwoStrings\TwoStrings.csproj", "{797A3826-8DEF-4DCC-B54F-E60770BE255C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9093B24-DCB0-4AFD-92D6-D5DB86E56CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9093B24-DCB0-4AFD-92D6-D5DB86E56CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9093B24-DCB0-4AFD-92D6-D5DB86E56CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9093B24-DCB0-4AFD-92D6-D5DB86E56CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{797A3826-8DEF-4DCC-B54F-E60770BE255C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{797A3826-8DEF-4DCC-B54F-E60770BE255C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{797A3826-8DEF-4DCC-B54F-E60770BE255C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{797A3826-8DEF-4DCC-B54F-E60770BE255C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93AE7750-5468-4133-9231-AEF3F3EAAEB0}
+	EndGlobalSection
+EndGlobal
